@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const URL = 'http://localhost:8000';
+// const URL = 'http://localhost:8000';
+const URL = 'https://flipkart-server-delta.vercel.app:8000'
 
 export const authenticateSignup = async(data) =>{
     try{
